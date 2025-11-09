@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['biodegradable', 'cardboard', 'clothes', 'metal', 'paper', 'plastic', 'shoes', 'trash']
+
+roboflow:
+  workspace: projecttrainer
+  project: ecovision_wasteclassification-udaxt
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/projecttrainer/ecovision_wasteclassification-udaxt/dataset/3
