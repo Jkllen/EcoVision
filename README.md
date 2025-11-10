@@ -64,8 +64,8 @@ C:.
 ---
 
 # Python Version
-- Python 3.11.6
-- pip 25.2
+- Python 3.12.9
+- pip 24.3.1
 
 --- 
 
