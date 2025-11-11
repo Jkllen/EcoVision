@@ -4,15 +4,10 @@
 BIODEGRADABLE_LOOKUP = {
     "plastic": False,
     "paper": True,
-    "cardboard": True,
     "metal": False,
     "glass": False,
-    "biodegradable": True,
-    "clothes": True,
-    "battery": False,
-    "shoes": False,
-    "trash": False,
-    "others": False
+    "cardboard": True,
+    "trash": False
 }
 
 def is_biodegradable(material: str) -> bool:
